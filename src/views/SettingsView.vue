@@ -1,15 +1,12 @@
 <script setup>
     import Icon from '@/components/Icon.vue';
+    import AppSettingsHeader from '@/components/AppSettingsHeader.vue';
 </script>
 <template>
     <div class="web-settings">
         <div class="frame">
             <div class="group">
-                <div class="header cl-bg-base">
-                    <h6 class="cl-fg-base-faint">
-                        <small>Profile</small>
-                    </h6>
-                </div>
+                <AppSettingsHeader headerName="Profile" />
                 <div class="content">
                     <div class="child cl-bg-base-faint cl-flex cl-flex-align-items-center">
                         <div class="icon">
