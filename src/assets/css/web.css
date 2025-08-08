@@ -21,7 +21,7 @@
 }
 .web-app-body{
     float:right;
-    padding:15px 20px;
+    padding:15px 25px;
     width:calc(100% - 280px);
 }
 
@@ -35,11 +35,11 @@
 
 .web-app-body .col-2 .user-photo{
     width:40px;
-    height:40px;
+    height:55px;
 }
 
 .web-app-body .col-2 ul li{
-    width:55px;
+    width:50px;
     height:40px;
     margin-right:20px;
     border-radius: 100px;
@@ -47,4 +47,14 @@
 
 .web-app-body .col-2 ul li:nth-last-child(1){
     margin-right:0;
+}
+
+@media(max-width:900px){
+    .web-sidebar{
+        display:none;
+    }
+    .web-app-body{
+        padding:12px 15px;
+        width:100%
+    }
 }
