@@ -88,7 +88,7 @@
         display:none;
     }
     .web-app-body{
-        padding:12px 15px;
+        padding:12px 12px;
         width:100%
     }
 
@@ -100,5 +100,25 @@
     .web-app-body .col-2 ul li svg{
         width:22px;
         height:22px;
+    }
+
+    .web-settings .frame .group .header{
+        padding:10px 15px;
+    }
+
+    .web-settings .frame .group .content{
+        margin-top:12px;
+    }
+
+    .web-settings .frame .group .content .child{
+        padding:12px 15px;
+    }
+
+    .web-settings .frame .group .content .child .icon{
+        width:15%;
+    }
+
+    .web-settings .frame .group .content .child .text{
+        width:70%;
     }
 }
