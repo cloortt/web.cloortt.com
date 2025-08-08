@@ -8,7 +8,11 @@
   const routeNames = {
     'homepage':'Home',
     'settings':'Settings',
-    'customers':'Customers'
+    'customers':'Customers',
+    'orders':'Orders',
+    'catalog':'Catalog',
+    'analytics':'Analytics',
+    'pricing':'Pricing',
   }
 
 </script>
