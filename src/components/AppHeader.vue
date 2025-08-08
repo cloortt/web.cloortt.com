@@ -16,7 +16,7 @@
         <div class="col-2 cl-flex cl-flex-justify-content-end">
             <ul class="cl-list remove-style cl-flex-inline cl-flex-align-items-center cl-border edge-is-curved">
                 <li class="cl-display-inline-block cl-bg-base-faint cl-flex cl-flex-align-items-center cl-flex-justify-content-center cl-border edge-is-curved">
-                    <Icon class="cl-fill-base" name="notification" :size="{ width: '22px', height: '22px' }" />
+                    <Icon class="cl-fill-base" name="notification" :size="{ width: '24px', height: '24px' }" />
                 </li>
 
                 <!-- <li class="cl-display-inline-block">
