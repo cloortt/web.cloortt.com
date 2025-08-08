@@ -1,9 +1,8 @@
 <script setup>
-    import Icon from './Icon.vue';
     import SidebarLink from './SidebarLink.vue';
 </script>
 <template>
-    <aside class="web-sidebar cl-pos-fixed cl-pos left-offset top-offset cl-size full-height cl-bg-base">
+    <aside class="web-sidebar cl-pos-fixed cl-pos left-offset top-offset cl-size full-height cl-bg-base cl-scroll y-auto">
         <div class="top">
             <h6 class="cl-fg-base-mild cl-txt w-bold">Cl</h6>
             <div class="cl-breaker-1"></div>
@@ -19,6 +18,12 @@
         <div class="cl-breaker-4"></div>
         <div class="links">
             <ul class="cl-list remove-style">
+                <SidebarLink linkName="Home" linkUrl="/" iconName="tv"/>
+                <SidebarLink linkName="Customers" linkUrl="/customers" iconName="users"/>
+                <SidebarLink linkName="Home" linkUrl="/" iconName="tv"/>
+                <SidebarLink linkName="Customers" linkUrl="/customers" iconName="users"/>
+                <SidebarLink linkName="Home" linkUrl="/" iconName="tv"/>
+                <SidebarLink linkName="Customers" linkUrl="/customers" iconName="users"/>
                 <SidebarLink linkName="Home" linkUrl="/" iconName="tv"/>
                 <SidebarLink linkName="Customers" linkUrl="/customers" iconName="users"/>
                 <SidebarLink linkName="Home" linkUrl="/" iconName="tv"/>

@@ -2,9 +2,10 @@
 
 .web-sidebar{
    width:270px; 
+   padding:20px 0;
 }
 .web-sidebar .top{
-    padding:20px 15px 0 15px;
+    padding:0 15px 0 15px;
 }
 .web-sidebar .links ul li{
     padding:35px 15px 35px 15px;
