@@ -1,17 +1,19 @@
 <script setup>
     import Icon from '@/components/Icon.vue';
+    import AppSettingsGroup from '@/components/AppSettingsGroup.vue';
     import AppSettingsHeader from '@/components/AppSettingsHeader.vue';
     import AppSettingsChild from '@/components/AppSettingsChild.vue';
 </script>
 <template>
     <div class="web-settings">
         <div class="frame">
-            <div class="group">
+            <AppSettingsGroup>
                 <AppSettingsHeader headerName="Profile" />
                 <div class="content">
                     <AppSettingsChild childName="Business Information" iconName="users"/>
                 </div>
-            </div>
+            </AppSettingsGroup>
+            
 
 
             <div class="group">
