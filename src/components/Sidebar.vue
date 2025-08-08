@@ -18,15 +18,14 @@
         <div class="cl-breaker-4"></div>
         <div class="links">
             <ul class="cl-list remove-style">
-                <SidebarLink linkName="Home" linkUrl="/" iconName="tv"/>
-                <SidebarLink linkName="Customers" linkUrl="/settings" iconName="users"/>
-                <SidebarLink linkName="Home" linkUrl="/" iconName="tv"/>
+                <SidebarLink linkName="Home" linkUrl="/" iconName="dashboard"/>
                 <SidebarLink linkName="Customers" linkUrl="/customers" iconName="users"/>
-                <SidebarLink linkName="Home" linkUrl="/" iconName="tv"/>
-                <SidebarLink linkName="Customers" linkUrl="/customers" iconName="users"/>
-                <SidebarLink linkName="Home" linkUrl="/" iconName="tv"/>
-                <SidebarLink linkName="Customers" linkUrl="/customers" iconName="users"/>
-                <SidebarLink linkName="Home" linkUrl="/" iconName="tv"/>
+                <SidebarLink linkName="Orders" linkUrl="/orders" iconName="bag"/>
+                <SidebarLink linkName="Catalog" linkUrl="/catalog" iconName="image-ai"/>
+                <SidebarLink linkName="Analytics" linkUrl="/analytics" iconName="chart"/>
+                <SidebarLink linkName="Pricing" linkUrl="/pricing" iconName="bank-card"/>
+                <SidebarLink linkName="Settings" linkUrl="/settings" iconName="settings"/>
+                <SidebarLink linkName="Logout" linkUrl="/logout" iconName="logout"/>
             </ul>
         </div>
     </aside>
