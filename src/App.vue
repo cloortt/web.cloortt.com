@@ -7,7 +7,8 @@
   const route = useRoute();
   const routeNames = {
     'homepage':'Home',
-    'settings':'Home'
+    'settings':'Settings',
+    'customers':'Customers'
   }
 
 </script>
@@ -15,7 +16,7 @@
 <template>
      <Sidebar/>
      <AppBody>
-        <AppHeader :routeName="`${routeNames[route.name]}`"/>
+        <AppHeader :routeName="`${routeNames[route.name] === undefined ? 'Home' : routeNames[route.name]}`"/>
         <div class="cl-breaker-4"></div>
         <div class="cl-breaker-4"></div>
         <RouterView/>

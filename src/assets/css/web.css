@@ -1,7 +1,7 @@
 @import './cloortt.css';
 
 .web-sidebar{
-   width:300px; 
+   width:280px; 
    padding:20px 0;
 }
 .web-sidebar .top{
@@ -22,8 +22,8 @@
 }
 .web-app-body{
     float:right;
-    padding:15px 25px;
-    width:calc(100% - 300px);
+    padding:15px 30px;
+    width:calc(100% - 280px);
 }
 
 .web-app-body .col-1{
