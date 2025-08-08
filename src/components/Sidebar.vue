@@ -19,7 +19,7 @@
         <div class="links">
             <ul class="cl-list remove-style">
                 <SidebarLink linkName="Home" linkUrl="/" iconName="tv"/>
-                <SidebarLink linkName="Customers" linkUrl="/customers" iconName="users"/>
+                <SidebarLink linkName="Customers" linkUrl="/settings" iconName="users"/>
                 <SidebarLink linkName="Home" linkUrl="/" iconName="tv"/>
                 <SidebarLink linkName="Customers" linkUrl="/customers" iconName="users"/>
                 <SidebarLink linkName="Home" linkUrl="/" iconName="tv"/>

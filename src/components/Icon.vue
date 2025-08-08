@@ -81,6 +81,10 @@
         <svg v-else-if="props.name === 'feedback'" :width="props.size.width" :height="props.size.height" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6.45455 19L2 22.5V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V18C22 18.5523 21.5523 19 21 19H6.45455ZM11 13V15H13V13H11ZM11 7V12H13V7H11Z"></path></svg>
     <!-- Feedback Icon Ends -->
 
+    <!-- Arrow Right Starts -->
+        <svg v-else-if="props.name === 'arrow-right'" :width="props.size.width" :height="props.size.height" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"></path></svg>
+    <!-- Arrow Right Ends -->
+
      <!-- Alternative Icon Starts -->
         <svg v-else :width="props.size.width" :height="props.size.height" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"></path></svg>
       <!-- Alternative Icon Ends -->

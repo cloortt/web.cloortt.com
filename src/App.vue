@@ -6,17 +6,18 @@
   
   const route = useRoute();
   const routeNames = {
-    'homepage':'Catalog',
-    'settings':'Account'
+    'homepage':'Home',
+    'settings':'Home'
   }
-  // alert(routeNames.homepage);
-  // alert(`Current route: ${route.name}`);
+
 </script>
 
 <template>
      <Sidebar/>
      <AppBody>
         <AppHeader :routeName="`${routeNames[route.name]}`"/>
+        <div class="cl-breaker-4"></div>
+        <div class="cl-breaker-4"></div>
         <RouterView/>
       </AppBody>
 </template>
