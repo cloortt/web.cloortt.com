@@ -3,3 +3,18 @@
 .web-sidebar{
    width:270px; 
 }
+.web-sidebar .top{
+    padding:20px 15px 0 15px;
+}
+.web-sidebar .links ul li{
+    padding:35px 15px 35px 15px;
+    border-bottom:8px solid var(--c-base-mild);
+}
+
+.web-sidebar .links ul li:nth-child(1){
+    padding-top:0;
+}
+.web-sidebar .links ul li:nth-last-child(1){
+    padding-bottom:0;
+    border-bottom:0;
+}
