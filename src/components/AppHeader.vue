@@ -11,7 +11,7 @@
 <template>
      <div class="the-head cl-flex cl-flex-align-items-center">
         <div class="col-1">
-            <h6 class="cl-fg-base cl-txt no-line-height">{{props.routeName}}</h6>
+            <h6 class="cl-fg-black cl-txt no-line-height">{{props.routeName}}</h6>
         </div>
         <div class="col-2 cl-flex cl-flex-justify-content-end">
             <ul class="cl-list remove-style cl-flex-inline cl-flex-align-items-center cl-border edge-is-curved">
