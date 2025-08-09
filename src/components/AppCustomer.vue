@@ -11,7 +11,7 @@
     });
 </script>
 <template>
-    <div class="group cl-flex cl-flex-align-items-center cl-inner-space-2">
+    <div class="group cl-flex cl-flex-align-items-center cl-inner-space-3">
             <div class="info cl-flex cl-flex-align-items-center">
                 <div class="icon cl-margin-right">
                     <div class="box cl-bg-base-mild cl-flex cl-flex-align-items-center cl-flex-justify-content-center cl-border edge-is-blunt">

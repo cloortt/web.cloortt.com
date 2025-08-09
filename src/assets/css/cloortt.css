@@ -27,6 +27,7 @@ button {
     --c-base: #004953;
     --c-base-mild:#ccf9ff;
     --c-base-faint: #f5feff;
+    /* --c-base-faint:#fafeff; */
     --c-success: #3ae57f;
     --c-success-mild: #3ae57f;
     --c-success-faint: #3ae57f;
