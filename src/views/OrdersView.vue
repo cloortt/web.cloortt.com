@@ -2,7 +2,11 @@
     import AppOrder from '@/components/AppOrders.vue';
 </script>
 <template>
-    <div class="web-orders cl-grid grid-2 stackable">
+    <div class="web-orders cl-grid">
+        <AppOrder/>
+        <AppOrder/>
+        <AppOrder/>
+        <AppOrder/>
         <AppOrder/>
         <AppOrder/>
         <AppOrder/>

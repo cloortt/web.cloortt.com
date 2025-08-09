@@ -7,9 +7,9 @@
   const route = useRoute();
   const routeNames = {
     'homepage':'Home',
-    'settings':'Pricing',
+    'settings':'Settings',
     'customers':'Customers',
-    'orders':'Home',
+    'orders':'Orders',
     'catalog':'Catalog',
     'analytics':'Analytics',
     'pricing':'Pricing',
