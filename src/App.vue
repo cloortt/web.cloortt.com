@@ -7,7 +7,7 @@
   const route = useRoute();
   const routeNames = {
     'homepage':'Home',
-    'settings':'Settings',
+    'settings':'Home',
     'customers':'Customers',
     'orders':'Orders',
     'catalog':'Catalog',
