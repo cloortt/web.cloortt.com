@@ -1,7 +1,7 @@
 @import './cloortt.css';
 
 .web-sidebar{
-   width:300px; 
+   width:320px; 
    padding:20px 0;
 }
 .web-sidebar .top{
@@ -22,8 +22,8 @@
 }
 .web-app-body{
     float:right;
-    padding:15px 28px;
-    width:calc(100% - 300px);
+    padding:15px 20px;
+    width:calc(100% - 320px);
 }
 
 .web-app-body .col-1{
@@ -40,10 +40,10 @@
 }
 
 .web-app-body .col-2 ul li{
-    width:55px;
+    width:40px;
     height:40px;
     margin-right:20px;
-    border-radius: 100px;
+    border-radius: 5px;
 }
 
 .web-app-body .col-2 ul li:nth-last-child(1){
@@ -93,17 +93,7 @@
         width:100%;
     }
 
-    .web-app-body .col-2 ul li{
-        width:55px;
-        height:40px;
-    }
-
-    .web-app-body .col-2 ul li svg{
-        width:22px;
-        height:22px;
-    }
-
-    /* .web-settings .frame .group .header{
+    .web-settings .frame .group .header{
         padding:10px 15px;
     }
 
@@ -113,7 +103,7 @@
 
     .web-settings .frame .group .content .child{
         padding:12px 15px;
-    } */
+    }
 
     .web-settings .frame .group .content .child .icon{
         width:15%;
