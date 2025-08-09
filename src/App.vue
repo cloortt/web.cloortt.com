@@ -22,7 +22,6 @@
      <AppBody>
         <AppHeader :routeName="`${routeNames[route.name] === undefined ? 'Home' : routeNames[route.name]}`"/>
         <div class="cl-breaker-4"></div>
-        <div class="cl-breaker-2"></div>
         <RouterView/>
       </AppBody>
 </template>

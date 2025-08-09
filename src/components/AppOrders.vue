@@ -2,7 +2,7 @@
     import Icon from './Icon.vue';
 </script>
 <template>
-    <div class="child cl-bg-white cl-border width-1 style-solid bc-grey edge-is-curved">
+    <div class="child cl-bg-white cl-border width-1 style-solid bc-grey edge-is-blunts">
         <div class="header cl-flex cl-flex-align-items-center cl-flex-justify-content-space-between">
             <div class="status">
                 <div class="cl-badge cl-display-inline cl-bg-base-faint cl-fg-base cl-border edge-is-curved cl-txt w-bold">
