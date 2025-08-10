@@ -15,7 +15,7 @@
 <template>
      <form class="cl-form">
         <div>
-            <input type="text" class="lg cl-border width-1 style-solid bc-grey cl-size full-width" v-model="props.searchValue" :placeholder="props.placeholder" >
+            <input type="text" class="sm cl-border width-1 style-solid bc-grey cl-size full-width" v-model="props.searchValue" :placeholder="props.placeholder" >
         </div>
     </form>
 </template>
