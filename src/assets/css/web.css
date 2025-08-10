@@ -85,7 +85,7 @@
 }
 
 .web-customers .group{
-    padding:20px 0;
+    padding:25px 0;
     border-bottom:1px solid var(--c-grey);
 }
 .web-customers .group:nth-last-child(1){
@@ -114,7 +114,7 @@
 }
 .web-orders .child {
     padding:20px 0;
-    border:8px solid var(--c-base);
+    border:1px solid var(--c-grey);
     border-left:0;
     border-right:0;
     margin-bottom:30px;
