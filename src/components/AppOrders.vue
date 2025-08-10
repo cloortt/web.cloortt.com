@@ -1,12 +1,28 @@
 <script setup>
     import Icon from './Icon.vue';
+    import { defineProps } from 'vue';
+
+    const props = defineProps({
+        orderStatus:{
+            type: String,
+            default: ''
+        },
+        customerName: {
+            type: String,
+            default: 'Default Customer'
+        },
+        orderDeadline: {
+            type: String,
+            default: '00 - 00 - 00'
+        }
+    });
 </script>
 <template>
     <div class="child">
         <div class="header cl-flex cl-flex-align-items-start cl-flex-justify-content-space-between">
             <div class="status">
                 <div class="cl-badge cl-display-inline cl-bg-base cl-fg-base-mild cl-txt w-bold">
-                    In Progress
+                    {{props.orderStatus}}
                 </div>
             </div>
             <div class="action cl-flex cl-flex-justify-content-end">
@@ -19,7 +35,7 @@
                     <p class="cl-fg-base cl-txt w-bold">Customer</p>
                 </div>
                 <div class="description cl-flex cl-flex-justify-content-end">
-                    <p class="cl-fg-base">Carlos Longe</p>
+                    <p class="cl-fg-base">{{props.customerName}}</p>
                 </div>
             </div>
 
@@ -28,7 +44,7 @@
                     <p class="cl-fg-base cl-txt w-bold">Time</p>
                 </div>
                 <div class="description cl-flex cl-flex-justify-content-end">
-                    <p class="cl-fg-base">09 - 08 - 25</p>
+                    <p class="cl-fg-base">{{props.orderDeadline}}</p>
                 </div>
             </div>
             
