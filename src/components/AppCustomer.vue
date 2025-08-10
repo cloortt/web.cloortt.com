@@ -25,10 +25,10 @@
             <div class="action cl-flex cl-flex-justify-content-end">
                 <ul class="cl-list remove-style">
                     <li class="cl-display-inline">
-                        <Icon class="cl-fill-black" name="file-edit" :size="{ width: '18px', height: '18px' }" />
+                        <Icon class="cl-fill-black" name="file-edit" :size="{ width: '20px', height: '20px' }" />
                     </li>
                     <li class="cl-display-inline">
-                        <Icon class="cl-fill-black" name="bin" :size="{ width: '18px', height: '18px' }" />
+                        <Icon class="cl-fill-black" name="bin" :size="{ width: '20px', height: '20px' }" />
                     </li>
                 </ul>
             </div>

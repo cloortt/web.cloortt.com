@@ -10,7 +10,7 @@
                 </div>
             </div>
             <div class="action cl-flex cl-flex-justify-content-end">
-                <Icon class="cl-fill-black" name="file-edit" :size="{ width: '18px', height: '18px' }" />
+                <Icon class="cl-fill-black" name="file-edit" :size="{ width: '20px', height: '20px' }" />
             </div>
         </div>
         <div class="info">
