@@ -3,7 +3,7 @@
 </script>
 <template>
     <div class="child">
-        <div class="header cl-flex cl-flex-align-items-center cl-flex-justify-content-space-between">
+        <div class="header cl-flex cl-flex-align-items-start cl-flex-justify-content-space-between">
             <div class="status">
                 <div class="cl-badge cl-display-inline cl-bg-base cl-fg-base-mild cl-txt w-bold">
                     In Progress
