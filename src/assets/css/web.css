@@ -29,8 +29,8 @@
 
 
 .web-app-body .the-head{
-    padding-bottom:20px;
-    border-bottom:1px solid var(--c-grey);
+    /* padding-bottom:20px;
+    border-bottom:1px solid var(--c-grey); */
 }
 
 .web-app-body .the-head .col-1{
@@ -155,8 +155,10 @@
         display:none;
     }
     .web-app-body{
-        padding:15px 15px;
+        padding:10px 10px;
         width:100%;
+        min-height: 100vh;
+        border:8px solid var(--c-base);
     }
 
     .web-settings .frame .group .header{
