@@ -3,13 +3,14 @@
 .web-sidebar{
    width:300px; 
    padding:20px 0;
+   border-right:1px solid var(--c-grey);
 }
 .web-sidebar .top{
     padding:0 15px 0 15px;
 }
 .web-sidebar .links ul li{
     padding:35px 15px 35px 15px;
-    border-bottom:8px solid var(--c-base-mild);
+    border-bottom:8px solid var(--c-white);
 }
 
 .web-sidebar .links ul li:nth-child(1){
@@ -113,7 +114,7 @@
 }
 .web-orders .child {
     padding:20px 0;
-    border:5px solid var(--c-base);
+    border:8px solid var(--c-base);
     border-left:0;
     border-right:0;
     margin-bottom:30px;

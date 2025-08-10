@@ -2,7 +2,7 @@
     import SidebarLink from './SidebarLink.vue';
 </script>
 <template>
-    <aside class="web-sidebar cl-pos-fixed cl-pos left-offset top-offset cl-size full-height cl-bg-base cl-scroll y-auto">
+    <aside class="web-sidebar cl-bg-base  cl-pos-fixed cl-pos left-offset top-offset cl-size full-height cl-scroll y-auto">
         <div class="top">
             <h6 class="cl-fg-base-mild cl-txt w-bold">Cl</h6>
             <div class="cl-breaker-1"></div>
