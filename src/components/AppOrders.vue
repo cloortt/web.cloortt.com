@@ -10,25 +10,25 @@
                 </div>
             </div>
             <div class="action cl-flex cl-flex-justify-content-end">
-                <Icon class="cl-fill-black" name="file-edit" :size="{ width: '20px', height: '20px' }" />
+                <Icon class="cl-fill-base" name="file-edit" :size="{ width: '20px', height: '20px' }" />
             </div>
         </div>
         <div class="info">
             <div class="group cl-flex cl-flex-align-items-center">
                 <div class="title">
-                    <p class="cl-fg-black cl-txt w-bold">Customer</p>
+                    <p class="cl-fg-base cl-txt w-bold">Customer</p>
                 </div>
                 <div class="description cl-flex cl-flex-justify-content-end">
-                    <p class="cl-fg-black">Omas-e</p>
+                    <p class="cl-fg-base">Carlos Longe</p>
                 </div>
             </div>
 
             <div class="group cl-flex cl-flex-align-items-center">
                 <div class="title">
-                    <p class="cl-fg-black cl-txt w-bold">Timeline</p>
+                    <p class="cl-fg-base cl-txt w-bold">Time</p>
                 </div>
                 <div class="description cl-flex cl-flex-justify-content-end">
-                    <p class="cl-fg-black">09 - 08 - 25</p>
+                    <p class="cl-fg-base">09 - 08 - 25</p>
                 </div>
             </div>
             
