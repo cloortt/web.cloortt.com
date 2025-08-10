@@ -113,10 +113,10 @@
     margin-right:0;
 }
 .web-orders .child {
-    padding:20px 0;
-    border:8px solid var(--c-base);
-    border-left:0;
-    border-right:0;
+    padding:15px;
+    border:1px solid var(--c-grey);
+    /* border-left:0;
+    border-right:0; */
     margin-bottom:30px;
 }
 
