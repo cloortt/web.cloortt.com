@@ -78,7 +78,7 @@
 }
 
 .web-customers .group{
-    padding:15px 0;
+    padding:20px 0;
     border-bottom:1px solid var(--c-grey);
 }
 
@@ -101,7 +101,7 @@
 }
 
 .web-customers .group .action ul li{
-    margin-right:12px;
+    margin-right:15px;
 }
 
 .web-customers .group .action ul li:nth-last-child(1){
@@ -135,7 +135,7 @@
 }
 
 .web-pricing .group{
-    padding:15px 0;
+    padding:20px 0;
     border-bottom:1px solid var(--c-grey);
 }
 
