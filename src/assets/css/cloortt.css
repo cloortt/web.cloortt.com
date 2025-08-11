@@ -1503,8 +1503,6 @@ a {
 }
 
 .cl-flex {
-    display: -webkit-box; 
-    display: -ms-flexbox; 
     display: flex;
     flex-wrap: wrap;
 }
@@ -1591,8 +1589,6 @@ a {
 }
 
 .cl-flex-justify-content-end {
-     -webkit-box-pack: end;
-  -ms-flex-pack: end;
     justify-content: end;
 }
 
