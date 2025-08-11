@@ -30,9 +30,9 @@
                 </p>
             </div>
         </div>
-        <div class="price cl-flex cl-flex-align-items-center cl-flex-justify-content-end">
-            <p class="cl-fg-base cl-txt w-bold cl-margin-right">
-                    <small>&#8358; {{ props.price }}</small>
+        <div class="price cl-flex cl-flex-justify-content-end">
+            <p class="cl-fg-base cl-txt w-bold">
+                <small>&#8358; {{ props.price }}</small>
             </p>
         </div>
     </div>
