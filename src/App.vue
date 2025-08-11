@@ -9,7 +9,7 @@
     'homepage':'Home',
     'settings':'Settings',
     'customers':'Customers',
-    'orders':'Pricing',
+    'orders':'Orders',
     'catalog':'Catalog',
     'analytics':'Analytics',
     'pricing':'Pricing',
