@@ -9,6 +9,9 @@ export default defineConfig({
   plugins: [
     vue(),
     vueDevTools(),
+    legacy({
+      targets: ['defaults', 'not IE 11'], // You can specify your target browsers here
+    }),
   ],
   resolve: {
     alias: {
