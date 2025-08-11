@@ -134,6 +134,30 @@
     width:50%;
 }
 
+.web-pricing .group{
+    padding:25px 0;
+    border-bottom:1px solid var(--c-grey);
+}
+
+
+.web-pricing .group:nth-last-child(1){
+    border-bottom:0;
+}
+
+.web-pricing .group .info{
+    width:65%;
+}
+
+.web-pricing .group .info .photo img{
+    width:40px;
+    height:40px;
+}
+
+.web-pricing .group .price{
+    width:35%;
+}
+
+
 @media(max-width:900px){
     .web-sidebar{
         display:none;
