@@ -156,7 +156,12 @@
 .web-pricing .group .price{
     width:35%;
 }
-
+.web-catalog{
+    padding:20px 0;
+}
+.web-catalog .child img{
+    height:300px;
+}
 
 @media(max-width:900px){
     .web-sidebar{

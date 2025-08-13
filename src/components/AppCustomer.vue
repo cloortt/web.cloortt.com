@@ -19,7 +19,7 @@
                     </div>
                 </div>
                 <div class="name">
-                    <p class="cl-fg-base cl-txt w-bold">{{props.customerName}}</p> 
+                    <p class="cl-fg-base cl-txt w-bold">{{props.customerName}}</p>
                 </div>
             </div>
             <div class="action cl-flex cl-flex-justify-content-end">
