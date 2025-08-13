@@ -32,7 +32,7 @@
         </h6>
         <div class="cl-breaker-3"></div>
         <form class="cl-form">
-            <select class="line-in cl-size full-width cl-border bottom-width-1 bottom-style-solid bc-bottom-grey">
+            <select class="line-in cl-bg-white cl-size full-width cl-border bottom-width-1 bottom-style-solid bc-bottom-grey">
                 <option v-for="(filter,index) in cardFilter" :key="index">{{filter}}</option>
             </select>
         </form>
