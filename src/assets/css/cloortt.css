@@ -1885,6 +1885,7 @@ a {
 .cl-form input,
 .cl-form select,
 .cl-form textarea {
+    border:0;
     outline: 0;
     font-size: var(--small-font-size);
 }
