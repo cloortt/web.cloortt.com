@@ -9,8 +9,8 @@
   });
 </script>
 <template>
-    <div class="header cl-bg-base">
-        <h6 class="cl-fg-base-faint">
+    <div class="header cl-bg-white  cl-border bottom-width-1 bottom-style-solid bc-bottom-grey">
+        <h6 class="cl-fg-base">
             <small>{{props.headerName}}</small>
         </h6>
     </div>

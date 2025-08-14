@@ -25,7 +25,7 @@
     <div class="child cl-inner-space-2 cl-border width-1 style-solid bc-grey">
         <Icon class="cl-fill-base" :name="props.cardIcon" :size="{ width: '30px', height: '30px' }" />
         <div class="cl-breaker-3"></div>
-        <p class="cl-fg-base cl-txt w-bold">{{props.cardName}}</p>
+        <p class="cl-fg-base">{{props.cardName}}</p>
         <h6 class="cl-fg-base">
             {{props.cardValue}}
         </h6>
