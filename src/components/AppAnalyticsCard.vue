@@ -26,9 +26,8 @@
         <Icon class="cl-fill-base" :name="props.cardIcon" :size="{ width: '30px', height: '30px' }" />
         <div class="cl-breaker-3"></div>
         <p class="cl-fg-base cl-txt w-bold">{{props.cardName}}</p>
-        <div class="cl-breaker-3"></div>
         <h6 class="cl-fg-base">
-            <small>{{props.cardValue}}</small>
+            {{props.cardValue}}
         </h6>
         <div class="cl-breaker-3"></div>
         <form class="cl-form">
