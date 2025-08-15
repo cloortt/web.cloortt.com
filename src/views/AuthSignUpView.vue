@@ -2,9 +2,9 @@
     import Icon from '@/components/Icon.vue';
 </script>
 <template>
-    <div class="web-auth cl-flex cl-flex-align-items-center cl-flex-justify-content-center">
+    <div class="web-auth cl-bg-base cl-flex cl-flex-align-items-center cl-flex-justify-content-center">
         <div class="frame">
-            <div class="content cl-bg-white cl-border width-1 style-solid bc-grey cl-inner-space-3">
+            <div class="content cl-bg-white cl-inner-space-3">
                 <div class="cl-flex cl-flex-align-items-center cl-flex-justify-content-space-between">
                     <div>
                         <h6 class="cl-fg-base">Create Account</h6>
@@ -60,7 +60,7 @@
                     <div class="cl-breaker-2"></div>
                     <p class="cl-txt w-bold">
                         <a class="cl-txt no-decoration cl-fg-base" href="">
-                            Resend code
+                            Resend email
                         </a>
                     </p>
                     <div class="cl-breaker-4"></div>
