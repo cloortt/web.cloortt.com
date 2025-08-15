@@ -205,14 +205,15 @@
     }
     .web-auth{
         padding:0 10px;
-        background-color:var(--c-base);
-        /* border:5px solid var(--c-base); */
+        /* background-color:var(--c-base); */
+        border:5px solid var(--c-base);
     }
     .web-auth .frame{
         width:100%;
     }
     .web-auth .frame .content{
-        border:5px solid var(--c-base); 
-        /* padding:0; */
+        border:0;
+        /* border:5px solid var(--c-base);  */
+        padding:0;
     }
 }
