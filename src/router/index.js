@@ -7,6 +7,7 @@ import CatalogView from '@/views/CatalogView.vue';
 import AnalyticsView from '@/views/AnalyticsView.vue';
 import PricingView from '@/views/PricingView.vue';
 import SettingsView from '@/views/SettingsView.vue';
+import LoginView from '@/views/LoginView.vue';
 
 
 const routes =[
@@ -56,7 +57,12 @@ const routes =[
         component: SettingsView
       }
     ]
-  }
+  },
+  {
+      path:'/auth/login',
+      name:'login',
+      component: LoginView
+    }
   ,
   {
         path:'/:patchMatch(.*)*',

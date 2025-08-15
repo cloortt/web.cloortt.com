@@ -166,6 +166,12 @@
     height:250px;
     border:1px solid var(--c-grey);
 }
+.web-auth{
+    min-height:100vh;
+}
+.web-auth .frame{
+    width:400px;
+}
 
 @media(max-width:900px){
     .web-sidebar{
@@ -174,7 +180,7 @@
     .web-app-body{
         padding:10px 10px;
         width:100%;
-        min-height: 100vh;
+        min-height: 100dvh;
         border:5px solid var(--c-base);
     }
 
@@ -196,5 +202,16 @@
 
     .web-settings .frame .group .content .child .text{
         width:70%;
+    }
+    .web-auth{
+        padding:10px 10px;
+        border:5px solid var(--c-base);
+    }
+    .web-auth .frame{
+        width:100%;
+    }
+    .web-auth .frame .content{
+        border:0;
+        padding:0;
     }
 }
