@@ -205,13 +205,13 @@
     }
     .web-auth{
         padding:0 15px;
-        border:5px solid var(--c-base);
+        /* border:5px solid var(--c-base); */
     }
     .web-auth .frame{
         width:100%;
     }
     .web-auth .frame .content{
-        border:0;
-        padding:0;
+        border:5px solid var(--c-base); 
+        /* padding:0; */
     }
 }
