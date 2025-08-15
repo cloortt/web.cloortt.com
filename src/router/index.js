@@ -8,6 +8,7 @@ import AnalyticsView from '@/views/AnalyticsView.vue';
 import PricingView from '@/views/PricingView.vue';
 import SettingsView from '@/views/SettingsView.vue';
 import AuthSignInView from '@/views/AuthSignInView.vue';
+import AuthSignUpView from '@/views/AuthSignUpView.vue';
 
 
 const routes =[
@@ -57,12 +58,19 @@ const routes =[
         component: SettingsView
       }
     ]
-  },
+  }
+  ,
   {
       path:'/auth/sign-in',
       name:'sign-in',
       component: AuthSignInView
-    }
+  }
+  ,
+  {
+      path:'/auth/sign-up',
+      name:'sign-up',
+      component: AuthSignUpView
+  }
   ,
   {
         path:'/:patchMatch(.*)*',
