@@ -9,6 +9,7 @@ import PricingView from '@/views/PricingView.vue';
 import SettingsView from '@/views/SettingsView.vue';
 import AuthSignInView from '@/views/AuthSignInView.vue';
 import AuthSignUpView from '@/views/AuthSignUpView.vue';
+import AuthResetView from '@/views/AuthResetView.vue';
 
 
 const routes =[
@@ -70,6 +71,13 @@ const routes =[
       path:'/auth/sign-up',
       name:'sign-up',
       component: AuthSignUpView
+  }
+
+  ,
+  {
+      path:'/auth/reset',
+      name:'reset',
+      component: AuthResetView
   }
   ,
   {
