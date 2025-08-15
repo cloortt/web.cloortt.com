@@ -4,7 +4,7 @@
 <template>
     <div class="web-auth cl-flex cl-flex-align-items-center cl-flex-justify-content-center">
         <div class="frame">
-            <div class="content cl-border width-1 style-solid bc-grey cl-inner-space-3">
+            <div class="content cl-bg-white cl-border width-1 style-solid bc-grey cl-inner-space-3">
                 <div class="cl-flex cl-flex-align-items-center cl-flex-justify-content-space-between">
                     <div>
                         <h6 class="cl-fg-base">Sign In</h6>

@@ -204,7 +204,8 @@
         width:70%;
     }
     .web-auth{
-        padding:0 15px;
+        padding:0 10px;
+        background-color:var(--c-base);
         /* border:5px solid var(--c-base); */
     }
     .web-auth .frame{
