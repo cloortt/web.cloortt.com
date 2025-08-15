@@ -7,7 +7,7 @@ import CatalogView from '@/views/CatalogView.vue';
 import AnalyticsView from '@/views/AnalyticsView.vue';
 import PricingView from '@/views/PricingView.vue';
 import SettingsView from '@/views/SettingsView.vue';
-import LoginView from '@/views/LoginView.vue';
+import AuthSignInView from '@/views/AuthSignInView.vue';
 
 
 const routes =[
@@ -59,9 +59,9 @@ const routes =[
     ]
   },
   {
-      path:'/auth/login',
-      name:'login',
-      component: LoginView
+      path:'/auth/sign-in',
+      name:'sign-in',
+      component: AuthSignInView
     }
   ,
   {
