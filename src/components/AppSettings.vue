@@ -18,10 +18,10 @@
     });
 </script>
 <template>
-    <div class="child cl-flex cl-flex-align-items-center cl-flex-justify-content-space-between">
+    <div class="child cl-flex cl-flex-align-items-center cl-flex-justify-content-space-between cl-cursor pointer">
         <div class="info cl-flex cl-flex-align-items-center">
             <Icon class="cl-fill-base" :name="props.icon" :size="{ width: '22px', height: '22px' }" />
-            <p class="cl-fg-base cl-txt w-bold">
+            <p class="cl-fg-base">
                 {{props.title}}
             </p>
         </div>
