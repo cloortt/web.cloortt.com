@@ -4,7 +4,7 @@
 <template>
     <div class="web-settings">
        <AppSettings 
-            icon="users" 
+            icon="id-card" 
             title="Profile" 
             description="Preview and manage your business information"
         />
@@ -35,8 +35,14 @@
 
         <AppSettings 
             icon="file-info" 
-            title="About" 
+            title="Info" 
             description="Privacy policy, terms of service, and more"
+        />
+
+        <AppSettings 
+            icon="logout" 
+            title="Logout" 
+            description="Report a bug, or request a feature"
         />
         
     </div>
