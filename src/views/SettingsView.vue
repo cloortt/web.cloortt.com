@@ -8,13 +8,13 @@ import SearchRecordInput from '@/components/SearchRecordInput.vue'
   <div class="web-settings">
     <AppSettings icon="id-card" title="Profile" />
 
-    <AppSettings icon="vip-crown" title="Subscription" />
+    <AppSettings icon="bank-card" title="Subscription" />
 
     <AppSettings icon="notification" title="Notification" />
 
     <AppSettings icon="users" title="Team members" />
 
-    <AppSettings icon="key" title="Security" />
+    <AppSettings icon="lock-star" title="Security" />
 
     <AppSettings icon="pantone" title="Apperance" />
 
