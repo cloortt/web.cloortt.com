@@ -1,171 +1,169 @@
 @import './cloortt.css';
 
-.web-sidebar{
-   width:300px; 
-   padding:20px 0;
+.web-sidebar {
+  width: 280px;
+  padding: 20px 0;
 }
-.web-sidebar .top{
-    padding:0 15px 0 15px;
+.web-sidebar .top {
+  padding: 0 15px 0 15px;
 }
-.web-sidebar .links ul li{
-    padding:35px 15px 35px 15px;
-    border-bottom:8px solid var(--c-white);
-}
-
-.web-sidebar .links ul li:nth-child(1){
-    padding-top:0;
+.web-sidebar .links ul li {
+  padding: 35px 15px 35px 15px;
+  border-bottom: 8px solid var(--c-white);
 }
 
-.web-sidebar .links ul li:nth-last-child(1){
-    padding-bottom:0;
-    border-bottom:0;
-}
-.web-app-body{
-    float:right;
-    padding:15px 20px;
-    width:calc(100% - 300px);
+.web-sidebar .links ul li:nth-child(1) {
+  padding-top: 0;
 }
 
-.web-app-body .the-head .col-1{
-    width:40%;
+.web-sidebar .links ul li:nth-last-child(1) {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+.web-app-body {
+  float: right;
+  padding: 15px 20px;
+  width: calc(100% - 280px);
 }
 
-.web-app-body .the-head .col-2{
-    width:60%;
+.web-app-body .the-head .col-1 {
+  width: 40%;
 }
 
-.web-app-body .the-head .col-2 ul li{
-    width:35px;
-    height:35px;
-    margin-right:20px;
+.web-app-body .the-head .col-2 {
+  width: 60%;
 }
 
-.web-app-body .the-head .col-2 ul li:nth-last-child(1){
-    margin-right:0;
+.web-app-body .the-head .col-2 ul li {
+  width: 35px;
+  height: 35px;
+  margin-right: 20px;
 }
 
-.web-settings .child{
-    padding:38px 0;
-    border-bottom:1px solid var(--c-grey);
+.web-app-body .the-head .col-2 ul li:nth-last-child(1) {
+  margin-right: 0;
 }
 
-.web-settings .child:nth-last-child(1){
-    border-bottom:0;
+.web-settings .child {
+  padding: 30px 0;
+  border-bottom: 1px solid var(--c-grey);
 }
 
-.web-settings .child .info svg{
-    margin-right:20px;
+.web-settings .child:nth-last-child(1) {
+  border-bottom: 0;
 }
 
-.web-customers .group{
-    padding:20px 0;
-    border-bottom:1px solid var(--c-grey);
+.web-settings .child .info svg {
+  margin-right: 20px;
 }
 
-
-.web-customers .group:nth-last-child(1){
-    border-bottom:0;
+.web-customers .group {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--c-grey);
 }
 
-.web-customers .group .info{
-    width:65%;
+.web-customers .group:nth-last-child(1) {
+  border-bottom: 0;
 }
 
-.web-customers .group .info .icon .box{
-    width:40px;
-    height:40px;
+.web-customers .group .info {
+  width: 65%;
 }
 
-.web-customers .group .action{
-    width:35%;
+.web-customers .group .info .icon .box {
+  width: 40px;
+  height: 40px;
 }
 
-.web-customers .group .action ul li{
-    margin-right:15px;
+.web-customers .group .action {
+  width: 35%;
 }
 
-.web-customers .group .action ul li:nth-last-child(1){
-    margin-right:0;
+.web-customers .group .action ul li {
+  margin-right: 15px;
+}
+
+.web-customers .group .action ul li:nth-last-child(1) {
+  margin-right: 0;
 }
 .web-orders .child {
-    padding:25px 0;
-    border-bottom:1px solid var(--c-grey);
+  padding: 25px 0;
+  border-bottom: 1px solid var(--c-grey);
 }
 
-.web-orders .child:nth-last-child(1){
-    margin-bottom:0;
-    border-bottom:0;
+.web-orders .child:nth-last-child(1) {
+  margin-bottom: 0;
+  border-bottom: 0;
 }
 
-.web-orders .child .info .group{
-    padding-top:50px;
+.web-orders .child .info .group {
+  padding-top: 50px;
 }
 
-.web-orders .child .info .group:nth-last-child(1){
-    border-bottom:0;
-    padding-bottom:0;
+.web-orders .child .info .group:nth-last-child(1) {
+  border-bottom: 0;
+  padding-bottom: 0;
 }
 
-.web-orders .child .info .group .title{
-    width:50%;
+.web-orders .child .info .group .title {
+  width: 50%;
 }
 
-.web-orders .child .info .group .description{
-    width:50%;
+.web-orders .child .info .group .description {
+  width: 50%;
 }
 
-.web-pricing .group{
-    padding:20px 0;
-    border-bottom:1px solid var(--c-grey);
+.web-pricing .group {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--c-grey);
 }
 
-
-.web-pricing .group:nth-last-child(1){
-    border-bottom:0;
+.web-pricing .group:nth-last-child(1) {
+  border-bottom: 0;
 }
 
-.web-pricing .group .info{
-    width:65%;
+.web-pricing .group .info {
+  width: 65%;
 }
 
-.web-pricing .group .info .photo img{
-    width:40px;
-    height:40px;
+.web-pricing .group .info .photo img {
+  width: 40px;
+  height: 40px;
 }
 
-.web-pricing .group .price{
-    width:35%;
+.web-pricing .group .price {
+  width: 35%;
 }
-.web-catalog{
-    grid-gap:10px;
-    padding:10px 0;
+.web-catalog {
+  grid-gap: 10px;
+  padding: 10px 0;
 }
-.web-catalog .child img{
-    height:250px;
-    border:1px solid var(--c-grey);
+.web-catalog .child img {
+  height: 250px;
+  border: 1px solid var(--c-grey);
 }
-.web-auth{
-    min-height:100dvh;
+.web-auth {
+  min-height: 100dvh;
 }
-.web-auth .frame{
-    width:450px;
+.web-auth .frame {
+  width: 450px;
 }
 
-@media(max-width:900px){
-    .web-sidebar{
-        display:none;
-    }
-    .web-app-body{
-        padding:10px 15px;
-        width:100%;
-        min-height: 100dvh;
-        border:5px solid var(--c-base);
-    }
+@media (max-width: 900px) {
+  .web-sidebar {
+    display: none;
+  }
+  .web-app-body {
+    padding: 10px 15px;
+    width: 100%;
+    min-height: 100dvh;
+    border: 5px solid var(--c-base);
+  }
 
-    .web-auth{
-        padding:0 10px;
-    }
-    .web-auth .frame{
-        width:100%;
-    }
+  .web-auth {
+    padding: 0 10px;
+  }
+  .web-auth .frame {
+    width: 100%;
+  }
 }

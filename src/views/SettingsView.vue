@@ -1,42 +1,29 @@
 <script setup>
-    import AppSettings from '@/components/AppSettings.vue';
+import AppSettings from '@/components/AppSettings.vue'
+import SearchRecordInput from '@/components/SearchRecordInput.vue'
 </script>
 <template>
-    <div class="web-settings">
-       <AppSettings 
-            icon="id-card" 
-            title="Profile" 
-        />
+  <!-- <SearchRecordInput searchValue="" placeholder="Search Settings..." /> -->
 
-        <AppSettings 
-            icon="vip-crown" 
-            title="Subscription" 
-        />
+  <div class="web-settings">
+    <AppSettings icon="id-card" title="Profile" />
 
-        <AppSettings 
-            icon="notification" 
-            title="Notification" 
-        />
+    <AppSettings icon="vip-crown" title="Subscription" />
 
-        <AppSettings 
-            icon="key" 
-            title="Security" 
-        />
+    <AppSettings icon="notification" title="Notification" />
 
-        <AppSettings 
-            icon="feedback" 
-            title="Contact" 
-        />
+    <AppSettings icon="users" title="Team members" />
 
-        <AppSettings 
-            icon="file-info" 
-            title="Help" 
-        />
+    <AppSettings icon="key" title="Security" />
 
-        <AppSettings 
-            icon="logout" 
-            title="Logout" 
-        />
-        
-    </div>
+    <AppSettings icon="pantone" title="Apperance" />
+
+    <AppSettings icon="history" title="History" />
+
+    <AppSettings icon="feedback" title="Contact" />
+
+    <AppSettings icon="file-info" title="Help" />
+
+    <AppSettings icon="logout" title="Logout" />
+  </div>
 </template>
