@@ -1,10 +1,7 @@
 <script setup>
 import AppSettings from '@/components/AppSettings.vue'
-import SearchRecordInput from '@/components/SearchRecordInput.vue'
 </script>
 <template>
-  <!-- <SearchRecordInput searchValue="" placeholder="Search Settings..." /> -->
-
   <div class="web-settings">
     <AppSettings icon="id-card" title="Profile" />
 
