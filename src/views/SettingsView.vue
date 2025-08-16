@@ -18,7 +18,7 @@ import SearchRecordInput from '@/components/SearchRecordInput.vue'
 
     <AppSettings icon="pantone" title="Apperance" />
 
-    <AppSettings icon="history" title="History" />
+    <AppSettings icon="file-history" title="History" />
 
     <AppSettings icon="feedback" title="Contact" />
 
