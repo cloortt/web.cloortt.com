@@ -161,10 +161,7 @@
         min-height: 100dvh;
         border:5px solid var(--c-base);
     }
-
-    .web-settings .child{
-        padding:35px 0;
-    }
+    
     .web-auth{
         padding:0 10px;
     }
