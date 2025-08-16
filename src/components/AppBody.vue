@@ -1,5 +1,5 @@
 <template>
-    <section class="web-app-body">
-        <slot></slot>
-    </section>
+  <section class="web-app-body">
+    <slot></slot>
+  </section>
 </template>
