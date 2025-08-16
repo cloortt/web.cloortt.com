@@ -45,7 +45,7 @@
 }
 
 .web-settings .child{
-    padding:25px 0;
+    padding:50px 0;
     border-bottom:1px solid var(--c-grey);
 }
 
@@ -53,8 +53,8 @@
     border-bottom:0;
 }
 
-.web-settings .child .top{
-    margin-bottom:50px;
+.web-settings .child .info svg{
+    margin-right:20px;
 }
 
 .web-customers .group{
@@ -156,30 +156,14 @@
         display:none;
     }
     .web-app-body{
-        padding:10px 10px;
+        padding:10px 15px;
         width:100%;
         min-height: 100dvh;
         border:5px solid var(--c-base);
     }
 
-    .web-settings .frame .group .header{
-        padding:10px 15px;
-    }
-
-    .web-settings .frame .group .content{
-        margin-top:12px;
-    }
-
-    .web-settings .frame .group .content .child{
-        padding:12px 15px;
-    }
-
-    .web-settings .frame .group .content .child .icon{
-        width:15%;
-    }
-
-    .web-settings .frame .group .content .child .text{
-        width:70%;
+    .web-settings .child{
+        padding:40px 0;
     }
     .web-auth{
         padding:0 10px;
