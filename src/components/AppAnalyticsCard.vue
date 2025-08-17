@@ -23,11 +23,11 @@ const props = defineProps({
 </script>
 <template>
   <div class="child cl-inner-space-2 cl-border width-1 style-solid bc-grey">
-    <Icon class="cl-fill-base" :name="props.cardIcon" :size="{ width: '30px', height: '30px' }" />
+    <Icon class="cl-fill-base" :name="props.cardIcon" :size="{ width: '22px', height: '22px' }" />
     <div class="cl-breaker-3"></div>
     <p class="cl-fg-base">{{ props.cardName }}</p>
     <h6 class="cl-fg-base">
-      {{ props.cardValue }}
+      <small>{{ props.cardValue }}</small>
     </h6>
     <div class="cl-breaker-3"></div>
     <form class="cl-form">
