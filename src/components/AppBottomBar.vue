@@ -6,7 +6,7 @@ const iconSize = ref({ width: '24px', height: '24px' })
 </script>
 <template>
   <div
-    class="web-bottom-bar cl-bg-white cl-size full-width cl-pos-fixed cl-pos left-offset bottom-offset"
+    class="web-bottom-bar cl-bg-white cl-shadow cl-size full-width cl-pos-fixed cl-pos left-offset bottom-offset"
   >
     <ul
       class="cl-list remove-style cl-size full-width cl-flex cl-flex-justify-content-space-between"
