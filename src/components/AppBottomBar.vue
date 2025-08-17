@@ -2,7 +2,7 @@
 import Icon from './Icon.vue'
 import { RouterLink } from 'vue-router'
 import { ref } from 'vue'
-const iconSize = ref({ width: '24px', height: '24px' })
+const iconSize = ref({ width: '22px', height: '22px' })
 </script>
 <template>
   <div
@@ -11,7 +11,7 @@ const iconSize = ref({ width: '24px', height: '24px' })
     <ul
       class="cl-list remove-style cl-size full-width cl-flex cl-flex-justify-content-space-between"
     >
-      <li class="cl-txt align-center">
+      <li class="cl-txt align-center active">
         <RouterLink to="/" class="cl-txt no-decoration" href="">
           <Icon class="cl-fill-base" name="home" :size="iconSize" />
           <p class="cl-fg-base cl-txt">
