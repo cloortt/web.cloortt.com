@@ -164,7 +164,7 @@
     display: flex;
   }
   .web-app-body {
-    padding: 10px 15px 88px 15px;
+    padding: 10px 15px 98px 15px;
     width: 100%;
     min-height: 100dvh;
     border: 8px solid var(--c-base);
