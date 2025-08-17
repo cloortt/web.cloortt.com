@@ -23,7 +23,7 @@
 .web-bottom-bar {
   display: none;
   padding: 22px 12px;
-  border: 8px solid var(--c-black);
+  border: 5px solid var(--c-black);
   border-top-width: 0;
 }
 .web-app-body {
@@ -167,7 +167,7 @@
     padding: 10px 15px 98px 15px;
     width: 100%;
     min-height: 100dvh;
-    border: 8px solid var(--c-base);
+    border: 5px solid var(--c-base);
     border-bottom: 0;
   }
 
