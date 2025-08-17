@@ -24,8 +24,7 @@
   display: none;
   padding: 20px 12px;
   border: 8px solid var(--c-black);
-  border-top-width: 1px;
-  border-top-color: var(--c-grey);
+  border-top-width: 0;
 }
 .web-app-body {
   float: right;
