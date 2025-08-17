@@ -11,22 +11,22 @@ import { RouterLink } from 'vue-router'
     >
       <li>
         <RouterLink to="/" class="cl-txt no-decoration" href="">
-          <Icon class="cl-fill-base" name="dashboard" :size="{ width: '22px', height: '22px' }" />
+          <Icon class="cl-fill-base" name="dashboard" :size="{ width: '24px', height: '24px' }" />
         </RouterLink>
       </li>
       <li>
         <RouterLink to="/customers" class="cl-txt no-decoration" href="">
-          <Icon class="cl-fill-base" name="users" :size="{ width: '22px', height: '22px' }" />
+          <Icon class="cl-fill-base" name="users" :size="{ width: '24px', height: '24px' }" />
         </RouterLink>
       </li>
       <li>
         <RouterLink to="/orders" class="cl-txt no-decoration" href="">
-          <Icon class="cl-fill-base" name="bag" :size="{ width: '22px', height: '22px' }" />
+          <Icon class="cl-fill-base" name="bag" :size="{ width: '24px', height: '24px' }" />
         </RouterLink>
       </li>
       <li>
         <RouterLink to="/settings" class="cl-txt no-decoration" href="">
-          <Icon class="cl-fill-base" name="settings" :size="{ width: '22px', height: '22px' }" />
+          <Icon class="cl-fill-base" name="settings" :size="{ width: '24px', height: '24px' }" />
         </RouterLink>
       </li>
     </ul>
