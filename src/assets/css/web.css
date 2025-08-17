@@ -20,6 +20,12 @@
   padding-bottom: 0;
   border-bottom: 0;
 }
+.web-bottom-bar {
+  display: none;
+  padding: 20px 12px;
+  border: 8px solid var(--c-black);
+  border-top-width: 1px;
+}
 .web-app-body {
   float: right;
   padding: 15px 20px;
@@ -153,11 +159,16 @@
   .web-sidebar {
     display: none;
   }
+  .web-bottom-bar {
+    width: 100%;
+    display: flex;
+  }
   .web-app-body {
-    padding: 10px 15px;
+    padding: 10px 15px 72px 15px;
     width: 100%;
     min-height: 100dvh;
     border: 8px solid var(--c-base);
+    border-bottom: 0;
   }
 
   .web-auth {
