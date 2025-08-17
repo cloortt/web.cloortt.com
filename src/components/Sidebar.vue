@@ -20,7 +20,7 @@ import SidebarLink from './SidebarLink.vue'
     <div class="cl-breaker-4"></div>
     <div class="links">
       <ul class="cl-list remove-style">
-        <SidebarLink linkName="Home" linkUrl="/" iconName="dashboard" />
+        <SidebarLink linkName="Home" linkUrl="/" iconName="home" />
         <SidebarLink linkName="Customers" linkUrl="/customers" iconName="users" />
         <SidebarLink linkName="Orders" linkUrl="/orders" iconName="bag" />
         <SidebarLink linkName="Catalog" linkUrl="/catalog" iconName="image-ai" />

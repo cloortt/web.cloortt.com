@@ -11,29 +11,44 @@ const iconSize = ref({ width: '24px', height: '24px' })
     <ul
       class="cl-list remove-style cl-size full-width cl-flex cl-flex-justify-content-space-between"
     >
-      <li>
+      <li class="cl-txt align-center">
         <RouterLink to="/" class="cl-txt no-decoration" href="">
-          <Icon class="cl-fill-base" name="dashboard" :size="iconSize" />
+          <Icon class="cl-fill-base" name="home" :size="iconSize" />
+          <p class="cl-fg-base cl-txt">
+            <small>Home</small>
+          </p>
         </RouterLink>
       </li>
-      <li>
+      <li class="cl-txt align-center">
         <RouterLink to="/customers" class="cl-txt no-decoration" href="">
           <Icon class="cl-fill-base" name="users" :size="iconSize" />
+          <p class="cl-fg-base cl-txt">
+            <small>Customers</small>
+          </p>
         </RouterLink>
       </li>
-      <li>
+      <li class="cl-txt align-center">
         <RouterLink to="/orders" class="cl-txt no-decoration" href="">
           <Icon class="cl-fill-base" name="bag" :size="iconSize" />
+          <p class="cl-fg-base cl-txt">
+            <small>Orders</small>
+          </p>
         </RouterLink>
       </li>
-      <li>
+      <li class="cl-txt align-center">
         <RouterLink to="/catalog" class="cl-txt no-decoration" href="">
           <Icon class="cl-fill-base" name="image-ai" :size="iconSize" />
+          <p class="cl-fg-base cl-txt">
+            <small>Catalog</small>
+          </p>
         </RouterLink>
       </li>
-      <li>
+      <li class="cl-txt align-center">
         <RouterLink to="/settings" class="cl-txt no-decoration" href="">
           <Icon class="cl-fill-base" name="settings" :size="iconSize" />
+          <p class="cl-fg-base cl-txt">
+            <small>Settings</small>
+          </p>
         </RouterLink>
       </li>
     </ul>
