@@ -26,16 +26,16 @@
   border: 5px solid var(--c-base);
   border-top-width: 0;
 }
-.web-bottom-bar ul li.active {
+.web-bottom-bar ul li .router-link-exact-active {
   position: relative;
 }
-.web-bottom-bar ul li.active::before {
+.web-bottom-bar ul li .router-link-exact-active::before {
   content: '';
   width: 100%;
   height: 5px;
   position: absolute;
   left: 50%;
-  bottom: -15px;
+  bottom: -10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   transform: translateX(-50%);
