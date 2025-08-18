@@ -19,16 +19,17 @@ const props = defineProps({
 })
 </script>
 <template>
-  <li
-    class="cl-flex-inline cl-flex-align-items-center cl-flex-justify-content-space-between cl-size full-width"
-  >
-    <RouterLink :to="props.linkUrl" class="cl-txt no-decoration w-bold cl-fg-base-mild">
-      {{ props.linkName }}
+  <li>
+    <RouterLink
+      :to="props.linkUrl"
+      class="cl-txt no-decoration w-bold cl-fg-base-mild cl-flex-inline cl-flex-align-items-center cl-flex-justify-content-space-between cl-size full-width"
+    >
+      <span>{{ props.linkName }}</span>
+      <Icon
+        class="cl-fill-base-mild"
+        :name="props.iconName"
+        :size="{ width: '22px', height: '22px' }"
+      />
     </RouterLink>
-    <Icon
-      class="cl-fill-base-mild"
-      :name="props.iconName"
-      :size="{ width: '22px', height: '22px' }"
-    />
   </li>
 </template>

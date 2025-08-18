@@ -20,6 +20,25 @@
   padding-bottom: 0;
   border-bottom: 0;
 }
+
+.web-sidebar .links ul li .router-link-exact-active {
+  position: relative;
+}
+
+.web-sidebar .links ul li .router-link-exact-active::before {
+  content: '';
+  width: 5px;
+  height: 130%;
+  display: block;
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--c-base-mild);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
 .web-bottom-bar {
   display: none;
   padding: 15px 10px;
