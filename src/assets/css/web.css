@@ -211,6 +211,10 @@
     border: 5px solid var(--c-base);
     border-bottom: 0;
   }
+  .web-app-body.no-bottom-bar {
+    padding: 10px 15px;
+    border-bottom: 5px solid var(--c-base);
+  }
   .web-app-body .the-head .col-1 svg {
     display: block;
   }
