@@ -10,7 +10,12 @@ const props = defineProps({
 </script>
 <template>
   <div class="the-head cl-flex cl-flex-align-items-center">
-    <div class="col-1">
+    <div class="col-1 cl-flex cl-flex-align-items-center">
+      <Icon
+        class="cl-fill-base cl-margin-right"
+        name="arrow-left"
+        :size="{ width: '30px', height: '30px' }"
+      />
       <h6 class="cl-fg-base">{{ props.routeName }}</h6>
     </div>
     <div class="col-2 cl-flex cl-flex-justify-content-end">
