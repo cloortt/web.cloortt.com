@@ -27,6 +27,7 @@ const iconSize = ref({ width: '22px', height: '22px' })
           </p>
         </RouterLink>
       </li>
+
       <li class="cl-txt align-center">
         <RouterLink to="/orders" class="cl-txt no-decoration">
           <Icon class="cl-fill-base" name="bag" :size="iconSize" />

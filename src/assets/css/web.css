@@ -72,6 +72,11 @@
   width: 40%;
 }
 
+.web-app-body .the-head .col-1 svg {
+  margin-right: 2px;
+  display: none;
+}
+
 .web-app-body .the-head .col-2 {
   width: 60%;
 }
@@ -206,7 +211,9 @@
     border: 5px solid var(--c-base);
     border-bottom: 0;
   }
-
+  .web-app-body .the-head .col-1 svg {
+    display: block;
+  }
   .web-auth {
     padding: 0 10px;
   }
