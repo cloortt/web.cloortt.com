@@ -28,14 +28,14 @@ const emit = defineEmits(['toggle-sidebar'])
         v-if="toggleBottomBar"
         class="cl-fill-base"
         name="equal"
-        :size="{ width: '30px', height: '30px' }"
+        :size="{ width: '35px', height: '35px' }"
       />
       <Icon
         @click="goBack"
         v-else
         class="cl-fill-base"
         name="arrow-left"
-        :size="{ width: '30px', height: '30px' }"
+        :size="{ width: '35px', height: '35px' }"
       />
       <h6 class="cl-fg-base">{{ props.routeName }}</h6>
     </div>
