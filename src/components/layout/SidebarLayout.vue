@@ -26,10 +26,16 @@ const sidebarVisibility = ref(false)
 
 const toggleSidebar = () => {
   sidebarVisibility.value = !sidebarVisibility.value
+  if (sidebarVisibility.value) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
 }
 
 const closeSidebar = () => {
   sidebarVisibility.value = false
+  document.body.style.overflow = 'auto'
 }
 
 watch(route, () => {
@@ -39,7 +45,7 @@ watch(route, () => {
 
 <template>
   <Sidebar :isVisible="sidebarVisibility" />
-  <AppBody :class="{ 'no-bottom-bar': toggleBottomBar, 'hide-scroll': sidebarVisibility }">
+  <AppBody :class="{ 'no-bottom-bar': toggleBottomBar }">
     <AppHeader
       @toggle-sidebar="toggleSidebar"
       :routeName="`${routeNames[route.name] === undefined ? 'Home' : routeNames[route.name]}`"

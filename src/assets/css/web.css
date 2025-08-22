@@ -75,11 +75,12 @@
 
 .web-app-body .the-head .col-1 {
   width: 40%;
+  position: relative;
 }
 
 .web-app-body .the-head .col-1 svg {
+  margin-left: -10px;
   margin-right: 2px;
-  display: none;
 }
 
 .web-app-body .the-head .col-2 {
