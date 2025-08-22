@@ -1,8 +1,17 @@
 <script setup>
 import SidebarLink from './SidebarLink.vue'
+import { defineProps } from 'vue'
+
+const props = defineProps({
+  isVisible: {
+    type: Boolean,
+    required: true,
+  },
+})
 </script>
 <template>
   <aside
+    :class="{ 'open-up': props.isVisible }"
     class="web-sidebar cl-bg-base cl-pos-fixed cl-pos left-offset top-offset cl-size full-height cl-scroll y-auto"
   >
     <div class="top">

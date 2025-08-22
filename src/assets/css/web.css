@@ -1,8 +1,12 @@
 @import './cloortt.css';
-
+.web-sidebar-container {
+  overflow: hidden;
+  z-index: 2;
+}
 .web-sidebar {
   width: 280px;
   padding: 20px 0;
+  z-index: 3;
 }
 .web-sidebar .top {
   padding: 0 15px 0 15px;
@@ -199,6 +203,9 @@
 @media (max-width: 900px) {
   .web-sidebar {
     display: none;
+  }
+  .web-sidebar.open-up {
+    display: block;
   }
   .web-bottom-bar {
     width: 100%;
