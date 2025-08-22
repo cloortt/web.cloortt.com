@@ -52,6 +52,7 @@ watch(route, () => {
   <div
     v-if="sidebarVisibility"
     @click="closeSidebar"
+    :class="{ 'cl-scroll-hidden': sidebarVisibility }"
     class="web-sidebar-container cl-pos-fixed cl-pos left-offset top-offset cl-size full-width full-height cl-overlay-dark"
   ></div>
 </template>
