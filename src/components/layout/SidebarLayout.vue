@@ -39,10 +39,7 @@ watch(route, () => {
 
 <template>
   <Sidebar :isVisible="sidebarVisibility" />
-  <AppBody
-    :class="{ 'no-bottom-bar': toggleBottomBar, 'cl-scroll-hidden': sidebarVisibility }"
-    style="overflow: hidden"
-  >
+  <AppBody :class="{ 'no-bottom-bar': toggleBottomBar, 'hide-scroll': sidebarVisibility }">
     <AppHeader
       @toggle-sidebar="toggleSidebar"
       :routeName="`${routeNames[route.name] === undefined ? 'Home' : routeNames[route.name]}`"
