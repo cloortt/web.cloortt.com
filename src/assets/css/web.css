@@ -1,6 +1,7 @@
 @import './cloortt.css';
 .web-sidebar-container {
   overflow: hidden;
+  display: none;
   z-index: 2;
 }
 .web-sidebar {
@@ -201,6 +202,9 @@
 }
 
 @media (max-width: 900px) {
+  .web-sidebar-container {
+    display: block;
+  }
   .web-sidebar {
     display: none;
   }
