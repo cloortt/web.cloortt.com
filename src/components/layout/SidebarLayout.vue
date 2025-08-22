@@ -39,7 +39,10 @@ watch(route, () => {
 
 <template>
   <Sidebar :isVisible="sidebarVisibility" />
-  <AppBody :class="{ 'no-bottom-bar': toggleBottomBar, 'cl-scroll-hidden': sidebarVisibility }">
+  <AppBody
+    :class="{ 'no-bottom-bar': toggleBottomBar, 'cl-scroll-hidden': sidebarVisibility }"
+    style="overflow: hidden"
+  >
     <AppHeader
       @toggle-sidebar="toggleSidebar"
       :routeName="`${routeNames[route.name] === undefined ? 'Home' : routeNames[route.name]}`"
@@ -52,7 +55,6 @@ watch(route, () => {
   <div
     v-if="sidebarVisibility"
     @click="closeSidebar"
-    :class="{ 'cl-scroll-hidden': sidebarVisibility }"
     class="web-sidebar-container cl-pos-fixed cl-pos left-offset top-offset cl-size full-width full-height cl-overlay-dark"
   ></div>
 </template>

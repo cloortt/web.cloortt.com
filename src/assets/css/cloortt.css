@@ -1451,7 +1451,7 @@ a {
   overflow: auto;
 }
 
-.cl-scroll-hidden {
+.cl-scroll.hidden {
   overflow: hidden;
 }
 
