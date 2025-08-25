@@ -75,11 +75,11 @@
 
 .web-app-body .the-head .col-1 {
   width: 40%;
-  /* background-color: red; */
 }
 
 .web-app-body .the-head .col-1 svg {
-  margin-left: -5px;
+  display: none;
+  margin-left: -7px;
   margin-right: 2px;
 }
 
