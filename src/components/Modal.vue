@@ -41,7 +41,7 @@ const closeModal = () => {
     class="cl-modal cl-pos-fixed left-offset top-offset cl-size full-width full-height cl-overlay-dark cl-flex-align-items-center cl-flex-justify-content-center"
   >
     <div
-      class="content-box cl-bg-white"
+      class="content-box cl-bg-white cl-scroll y-scroll"
       :class="[
         `sz-${props.type}`,
         {
@@ -64,6 +64,7 @@ const closeModal = () => {
         </div>
       </div>
       <div class="the-body cl-inner-space-3">
+        <div class="cl-breaker-4"></div>
         <slot></slot>
       </div>
     </div>

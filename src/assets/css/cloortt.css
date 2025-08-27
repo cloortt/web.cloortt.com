@@ -1876,7 +1876,7 @@ a {
 }
 
 .cl-button.lg {
-  padding: 12px 10px;
+  padding: 13px 10px;
 }
 
 .cl-form input,
@@ -1897,6 +1897,12 @@ a {
 .cl-form select.lg,
 .cl-form textarea.lg {
   padding: 14px 12px;
+}
+
+.cl-form select {
+  -webkit-appearance: none; /* For Chrome and Safari */
+  -moz-appearance: none; /* For Firefox */
+  appearance: none; /* Standard syntax */
 }
 
 .cl-form input.line-in,
@@ -2377,7 +2383,7 @@ a {
 }
 
 .cl-modal .content-box.sz-sidebar {
-  width: 600px;
+  width: 50%;
   height: 100%;
   position: fixed;
   top: 0;

@@ -239,4 +239,7 @@
   .web-auth .frame {
     width: 100%;
   }
+  .web-float-action-button.bottom-bar {
+    bottom: 90px;
+  }
 }

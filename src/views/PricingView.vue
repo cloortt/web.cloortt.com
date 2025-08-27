@@ -2,12 +2,12 @@
 import { ref } from 'vue'
 import SearchRecordInput from '@/components/SearchRecordInput.vue'
 import AppPricing from '@/components/AppPricing.vue'
+import FloatActionButton from '@/components/FloatActionButton.vue'
 import Modal from '@/components/Modal.vue'
 
 const openNewPriceModal = ref(false)
 </script>
 <template>
-  <button @click="openNewPriceModal = true">Open</button>
   <SearchRecordInput searchValue="" placeholder="Search Pricing..." />
   <div class="web-pricing">
     <AppPricing
@@ -62,6 +62,8 @@ const openNewPriceModal = ref(false)
     />
   </div>
 
+  <FloatActionButton @click="openNewPriceModal = true" />
+
   <Modal
     title="Pricing"
     type="sidebar"
@@ -100,6 +102,7 @@ const openNewPriceModal = ref(false)
       </div>
       <div class="cl-breaker-4"></div>
       <div class="cl-breaker-4"></div>
+
       <div class="cl-flex cl-flex-justify-content-end">
         <button
           class="cl-button lg cl-txt w-bold cl-bg-base cl-fg-base-faint cl-border width-1 style-solid bc-base"
