@@ -22,7 +22,7 @@ const props = defineProps({
   <li>
     <RouterLink
       :to="props.linkUrl"
-      class="cl-txt no-decoration w-bold cl-fg-base-mild cl-flex-inline cl-flex-align-items-center cl-flex-justify-content-space-between cl-size full-width"
+      class="cl-txt no-decoration cl-fg-base-mild cl-flex-inline cl-flex-align-items-center cl-flex-justify-content-space-between cl-size full-width"
     >
       <span>{{ props.linkName }}</span>
       <Icon

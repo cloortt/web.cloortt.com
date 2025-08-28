@@ -12,7 +12,7 @@ const props = defineProps({
 <template>
   <aside
     :class="{ 'open-up': props.isVisible }"
-    class="web-sidebar cl-bg-base cl-pos-fixed cl-pos left-offset top-offset cl-size full-height cl-scroll y-auto"
+    class="web-sidebar cl-bg-base cl-pos-fixed cl-pos left-offset top-offset cl-size full-height cl-scroll y-auto transparent"
   >
     <div class="top">
       <h6 class="cl-fg-base-mild cl-txt w-bold">Cl</h6>

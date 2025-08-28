@@ -1,4 +1,12 @@
 @import './cloortt.css';
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background: var(--c-base);
+}
+
 .web-sidebar-container {
   overflow: hidden;
   display: none;
@@ -9,11 +17,14 @@
   padding: 20px 0;
   z-index: 3;
 }
+.web-sidebar::-webkit-scrollbar-thumb {
+  background: var(--c-base-faint);
+}
 .web-sidebar .top {
   padding: 0 15px 0 15px;
 }
 .web-sidebar .links ul li {
-  padding: 35px 15px 35px 15px;
+  padding: 35px 15px;
   border-bottom: 8px solid var(--c-white);
 }
 
@@ -71,6 +82,8 @@
   float: right;
   padding: 15px 20px;
   width: calc(100% - 280px);
+  min-height: 100dvh;
+  border: 5px solid var(--c-base);
 }
 
 .web-app-body .the-head .col-1 {
@@ -107,7 +120,7 @@
 }
 
 .web-settings .child .info svg {
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 .web-customers .group {
@@ -219,7 +232,6 @@
   .web-app-body {
     padding: 10px 15px 85px 15px;
     width: 100%;
-    min-height: 100dvh;
     border: 5px solid var(--c-base);
     border-bottom: 0;
   }
