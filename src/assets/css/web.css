@@ -1,6 +1,6 @@
 @import './cloortt.css';
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 0;
@@ -108,6 +108,28 @@
 
 .web-app-body .the-head .col-2 ul li:nth-last-child(1) {
   margin-right: 0;
+}
+
+.web-modal-list .child {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--c-grey);
+}
+
+.web-modal-list .child:nth-child(1) {
+  padding-top: 0;
+}
+
+.web-modal-list .child:nth-last-child(1) {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.web-modal-list .child .title {
+  width: 80%;
+}
+
+.web-modal-list .child .icon {
+  width: 20%;
 }
 
 .web-settings .child {

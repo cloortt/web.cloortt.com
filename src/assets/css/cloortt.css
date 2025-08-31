@@ -25,7 +25,7 @@ button {
 
 :root {
   --c-base: #004953;
-  /* --c-base: #151515; */
+  --c-base: #151515;
   --c-base-mild: #ccf9ff;
   --c-base-faint: #f5feff;
   --c-success: #3ae57f;
@@ -2331,15 +2331,12 @@ a {
 }
 
 .cl-modal {
+  height: 100%;
   z-index: 10;
   position: fixed;
   top: 0;
   left: 0;
   display: flex;
-}
-
-.cl-modal .content-box {
-  height: auto;
 }
 .cl-modal .content-box .the-head {
   padding: 14px 10px;
@@ -2357,15 +2354,18 @@ a {
   width: 25px;
   height: 25px;
 }
-
-.cl-modal .content-box.sz-small {
-  width: 400px;
-  max-height: 600px;
+.cl-modal .content-box .the-body {
+  padding: 15px 9px 15px 15px;
 }
 
-.cl-modal .content-box.sz-medium {
+.cl-modal .content-box.sz-small .the-body {
+  width: 400px;
+  max-height: 562px;
+}
+
+.cl-modal .content-box.sz-medium .the-body {
   width: 600px;
-  max-height: 600px;
+  max-height: 562px;
 }
 
 .cl-modal .content-box.sz-large {
@@ -2389,6 +2389,10 @@ a {
   top: 0;
   right: 0;
   border-radius: 0;
+}
+
+.cl-modal .content-box.sz-sidebar .the-body {
+  padding-bottom: 73px;
 }
 
 .cl-float-action {
@@ -2445,14 +2449,18 @@ a {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .cl-modal .content-box.sz-small {
-    width: 90%;
-    max-height: 90%;
+  .cl-modal {
+    align-items: end;
   }
 
-  .cl-modal .content-box.sz-medium {
-    width: 90%;
-    max-height: 90%;
+  .cl-modal .content-box.sz-small .the-body {
+    width: 100%;
+    max-height: 562px;
+  }
+
+  .cl-modal .content-box.sz-medium .the-body {
+    width: 600px;
+    max-height: 562px;
   }
 
   .cl-modal .content-box.sz-large {
