@@ -2358,13 +2358,19 @@ a {
   padding: 15px 9px 15px 15px;
 }
 
-.cl-modal .content-box.sz-small .the-body {
+.cl-modal .content-box.sz-small {
   width: 400px;
+}
+
+.cl-modal .content-box.sz-small .the-body {
   max-height: 562px;
 }
 
-.cl-modal .content-box.sz-medium .the-body {
+.cl-modal .content-box.sz-medium {
   width: 600px;
+}
+
+.cl-modal .content-box.sz-medium .the-body {
   max-height: 562px;
 }
 
@@ -2449,18 +2455,14 @@ a {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .cl-modal {
-    align-items: end;
+  .cl-modal .content-box.sz-small {
+    width: 92%;
+    max-height: 90%;
   }
 
-  .cl-modal .content-box.sz-small .the-body {
-    width: 100%;
-    max-height: 562px;
-  }
-
-  .cl-modal .content-box.sz-medium .the-body {
-    width: 600px;
-    max-height: 562px;
+  .cl-modal .content-box.sz-medium {
+    width: 90%;
+    max-height: 90%;
   }
 
   .cl-modal .content-box.sz-large {

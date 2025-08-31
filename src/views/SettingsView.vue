@@ -134,11 +134,11 @@ const modal = reactive({
   <!-- Business Profile Modal Ends -->
 
   <!-- Theme Modal Starts -->
-  <Modal title="Theme" type="small" :visibility="modal.theme" @close="modal.theme = false">
+  <Modal title="Theme" type="sidebar" :visibility="modal.theme" @close="modal.theme = false">
     <div class="web-modal-list">
       <div class="child cl-flex cl-flex-align-items-center">
         <div class="title">
-          <p class="cl-fg-base">Home</p>
+          <p class="cl-fg-base">Default</p>
         </div>
         <div class="icon cl-flex cl-flex-justify-content-end">
           <Icon class="cl-fill-base" name="arrow-right" :size="{ width: '22px', height: '22px' }" />
@@ -147,7 +147,7 @@ const modal = reactive({
 
       <div class="child cl-flex cl-flex-align-items-center">
         <div class="title">
-          <p class="cl-fg-base">Home</p>
+          <p class="cl-fg-base">Light</p>
         </div>
         <div class="icon cl-flex cl-flex-justify-content-end">
           <Icon class="cl-fill-base" name="arrow-right" :size="{ width: '22px', height: '22px' }" />
@@ -156,7 +156,7 @@ const modal = reactive({
 
       <div class="child cl-flex cl-flex-align-items-center">
         <div class="title">
-          <p class="cl-fg-base">Home</p>
+          <p class="cl-fg-base">Dim</p>
         </div>
         <div class="icon cl-flex cl-flex-justify-content-end">
           <Icon class="cl-fill-base" name="arrow-right" :size="{ width: '22px', height: '22px' }" />
