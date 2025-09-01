@@ -114,7 +114,11 @@
   padding: 20px 0;
   border-bottom: 1px solid var(--c-grey);
 }
+.web-modal-list .child:nth-child(1) {
+  padding-top: 0;
+}
 .web-modal-list .child:nth-last-child(1) {
+  padding-bottom: 0;
   border-bottom: 0;
 }
 
