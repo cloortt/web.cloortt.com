@@ -36,7 +36,6 @@ const props = defineProps({
         <SidebarLink linkName="Analytics" linkUrl="/analytics" iconName="chart" />
         <SidebarLink linkName="Pricing" linkUrl="/pricing" iconName="bank-card" />
         <SidebarLink linkName="Settings" linkUrl="/settings" iconName="settings" />
-        <SidebarLink linkName="Logout" linkUrl="/logout" iconName="logout" />
       </ul>
     </div>
   </aside>

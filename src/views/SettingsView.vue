@@ -9,10 +9,23 @@ const modal = reactive({
   profile: false,
   theme: false,
   notification: false,
+  customers: false,
+  customField: false,
+  allCustomFields: false,
   logout: false,
   security: false,
   history: false,
   help: false,
+})
+const modal_open = reactive({
+  customField: () => {
+    modal.customers = false
+    modal.customField = true
+  },
+  allCustomFields: () => {
+    modal.customers = false
+    modal.allCustomFields = true
+  },
 })
 </script>
 <template>
@@ -24,16 +37,15 @@ const modal = reactive({
     <AppSettings icon="bank-card" title="Subscription" />
 
     <!-- <AppSettings icon="notification" title="Notification" @click="modal.notification = true" /> -->
+    <AppSettings icon="users" title="Customers" @click="modal.customers = true" />
 
-    <AppSettings icon="users" title="Team members" />
+    <AppSettings icon="user-add" title="Team members" />
 
     <AppSettings icon="lock-star" title="Security" @click="modal.security = true" />
 
     <AppSettings icon="pantone" title="Theme" @click="modal.theme = true" />
 
     <AppSettings icon="file-history" title="History" @click="modal.history = true" />
-
-    <AppSettings icon="file-info" title="Learning" />
 
     <AppSettings icon="feedback" title="Help" @click="modal.help = true" />
 
@@ -391,7 +403,7 @@ const modal = reactive({
   <!-- Theme Modal Starts -->
   <Modal title="Theme" type="small" :visibility="modal.theme" @close="modal.theme = false">
     <div class="web-modal-list">
-      <div class="child cl-flex cl-flex-align-items-center">
+      <div class="child cl-flex cl-flex-align-items-center cl-cursor pointer">
         <div class="title">
           <p class="cl-fg-base">Default</p>
         </div>
@@ -400,7 +412,7 @@ const modal = reactive({
         </div>
       </div>
 
-      <div class="child cl-flex cl-flex-align-items-center">
+      <div class="child cl-flex cl-flex-align-items-center cl-cursor pointer">
         <div class="title">
           <p class="cl-fg-base">Light</p>
         </div>
@@ -409,7 +421,7 @@ const modal = reactive({
         </div>
       </div>
 
-      <div class="child cl-flex cl-flex-align-items-center">
+      <div class="child cl-flex cl-flex-align-items-center cl-cursor pointer">
         <div class="title">
           <p class="cl-fg-base">Dim</p>
         </div>
@@ -420,39 +432,6 @@ const modal = reactive({
     </div>
   </Modal>
   <!-- Theme Modal Ends -->
-
-  <!-- Help Modal Starts -->
-  <Modal title="Help" type="small" :visibility="modal.help" @close="modal.help = false">
-    <div class="web-modal-list">
-      <div class="child cl-flex cl-flex-align-items-center">
-        <div class="title">
-          <p class="cl-fg-base">Terms and policies</p>
-        </div>
-        <div class="icon cl-flex cl-flex-justify-content-end">
-          <Icon class="cl-fill-base" name="arrow-right" :size="{ width: '22px', height: '22px' }" />
-        </div>
-      </div>
-
-      <div class="child cl-flex cl-flex-align-items-center">
-        <div class="title">
-          <p class="cl-fg-base">Report a problem</p>
-        </div>
-        <div class="icon cl-flex cl-flex-justify-content-end">
-          <Icon class="cl-fill-base" name="arrow-right" :size="{ width: '22px', height: '22px' }" />
-        </div>
-      </div>
-
-      <div class="child cl-flex cl-flex-align-items-center">
-        <div class="title">
-          <p class="cl-fg-base">Support</p>
-        </div>
-        <div class="icon cl-flex cl-flex-justify-content-end">
-          <Icon class="cl-fill-base" name="arrow-right" :size="{ width: '22px', height: '22px' }" />
-        </div>
-      </div>
-    </div>
-  </Modal>
-  <!-- Help Modal Ends -->
 
   <!-- History Modal Starts -->
   <Modal title="History" type="small" :visibility="modal.history" @close="modal.history = false">
@@ -468,7 +447,7 @@ const modal = reactive({
 
       <div class="child cl-flex cl-flex-align-items-center">
         <div class="title">
-          <p class="cl-fg-base">Sign In history</p>
+          <p class="cl-fg-base">login activity</p>
         </div>
         <div class="icon cl-flex cl-flex-justify-content-end">
           <Icon class="cl-fill-base" name="arrow-right" :size="{ width: '22px', height: '22px' }" />
@@ -478,14 +457,161 @@ const modal = reactive({
   </Modal>
   <!-- History Modal Ends -->
 
+  <!-- Help Modal Starts -->
+  <Modal title="Help" type="small" :visibility="modal.help" @close="modal.help = false">
+    <div class="web-modal-list">
+      <div class="child cl-flex cl-flex-align-items-center cl-cursor pointer">
+        <div class="title">
+          <p class="cl-fg-base">Terms and policies</p>
+        </div>
+        <div class="icon cl-flex cl-flex-justify-content-end">
+          <Icon class="cl-fill-base" name="arrow-right" :size="{ width: '22px', height: '22px' }" />
+        </div>
+      </div>
+
+      <div class="child cl-flex cl-flex-align-items-center cl-cursor pointer">
+        <div class="title">
+          <p class="cl-fg-base">Report a problem</p>
+        </div>
+        <div class="icon cl-flex cl-flex-justify-content-end">
+          <Icon class="cl-fill-base" name="arrow-right" :size="{ width: '22px', height: '22px' }" />
+        </div>
+      </div>
+
+      <div class="child cl-flex cl-flex-align-items-center cl-cursor pointer">
+        <div class="title">
+          <p class="cl-fg-base">Support</p>
+        </div>
+        <div class="icon cl-flex cl-flex-justify-content-end">
+          <Icon class="cl-fill-base" name="arrow-right" :size="{ width: '22px', height: '22px' }" />
+        </div>
+      </div>
+    </div>
+  </Modal>
+  <!-- Help Modal Ends -->
+
+  <!-- Customers Modal Starts -->
+  <Modal
+    title="Customers"
+    type="small"
+    :visibility="modal.customers"
+    @close="modal.customers = false"
+  >
+    <div class="web-modal-list">
+      <div
+        class="child cl-flex cl-flex-align-items-center cl-cursor pointer"
+        @click="modal_open.customField"
+      >
+        <div class="title">
+          <p class="cl-fg-base">New measurement field</p>
+        </div>
+        <div class="icon cl-flex cl-flex-justify-content-end">
+          <Icon class="cl-fill-base" name="arrow-right" :size="{ width: '22px', height: '22px' }" />
+        </div>
+      </div>
+      <div
+        class="child cl-flex cl-flex-align-items-center cl-cursor pointer"
+        @click="modal_open.allCustomFields"
+      >
+        <div class="title">
+          <p class="cl-fg-base">All fields</p>
+        </div>
+        <div class="icon cl-flex cl-flex-justify-content-end">
+          <Icon class="cl-fill-base" name="arrow-right" :size="{ width: '22px', height: '22px' }" />
+        </div>
+      </div>
+    </div>
+  </Modal>
+  <!-- Customers Modal Ends -->
+
+  <!-- Custom Field Modal Starts -->
+  <Modal
+    title="Custom field"
+    type="medium"
+    :visibility="modal.customField"
+    @close="modal.customField = false"
+  >
+    <form class="cl-form">
+      <div>
+        <p class="cl-fg-base">Body Part <span class="cl-fg-danger">*</span></p>
+        <div class="cl-breaker-2"></div>
+        <input
+          class="lg cl-bg-white cl-border width-1 style-solid bc-grey cl-size full-width"
+          type="text"
+          placeholder="E.g Knee Circumference"
+        />
+      </div>
+      <div class="cl-breaker-4"></div>
+      <div class="cl-breaker-1"></div>
+      <div>
+        <p class="cl-fg-base">Gender <span class="cl-fg-danger">*</span></p>
+        <div class="cl-breaker-2"></div>
+        <select class="lg cl-bg-white cl-border width-1 style-solid bc-grey cl-size full-width">
+          <option value="">--Choose from option--</option>
+          <option value="FEMALE">Female</option>
+          <option value="MALE">Male</option>
+        </select>
+      </div>
+      <div class="cl-breaker-4"></div>
+      <div class="cl-breaker-1"></div>
+      <div>
+        <p class="cl-fg-base">Category <span class="cl-fg-danger">*</span></p>
+        <div class="cl-breaker-2"></div>
+        <select class="lg cl-bg-white cl-border width-1 style-solid bc-grey cl-size full-width">
+          <option value="">--Choose from option--</option>
+          <option value="FEMALE">Top (Upper Body)</option>
+          <option value="MALE">Bottom (Lower Body)</option>
+        </select>
+      </div>
+
+      <div class="cl-breaker-4"></div>
+      <div class="cl-breaker-1"></div>
+
+      <div class="cl-flex cl-flex-justify-content-end">
+        <button
+          class="cl-button lg cl-txt w-bold cl-bg-base cl-fg-base-faint cl-border width-1 style-solid bc-base"
+        >
+          Save
+        </button>
+      </div>
+    </form>
+  </Modal>
+  <!-- Custom Field Modal Ends -->
+
+  <!-- All Custom Fields Modal Starts -->
+  <Modal
+    title="All fields"
+    type="sidebar"
+    :visibility="modal.allCustomFields"
+    @close="modal.allCustomFields = false"
+  >
+    <div class="web-modal-list">
+      <div class="child cl-flex cl-flex-align-items-center">
+        <div class="title">
+          <p class="cl-fg-base">New measurement field</p>
+        </div>
+        <div class="icon cl-flex cl-flex-justify-content-end">
+          <Icon class="cl-fill-base" name="arrow-right" :size="{ width: '22px', height: '22px' }" />
+        </div>
+      </div>
+      <div class="child cl-flex cl-flex-align-items-center">
+        <div class="title">
+          <p class="cl-fg-base">All fields</p>
+        </div>
+        <div class="icon cl-flex cl-flex-justify-content-end">
+          <Icon class="cl-fill-base" name="arrow-right" :size="{ width: '22px', height: '22px' }" />
+        </div>
+      </div>
+    </div>
+  </Modal>
+  <!-- All Custom Fields Modal Ends -->
+
   <!-- Logout Modal Starts -->
   <Modal title="Log out" type="small" :visibility="modal.logout" @close="modal.logout = false">
-    <div class="cl-breaker-4"></div>
     <div class="cl-breaker-4"></div>
     <p class="cl-fg-base cl-txt align-justified">
       Before you go, please confirm you'd like to log out of your account.
     </p>
-    <div class="cl-breaker-4"></div>
     <div class="cl-breaker-4"></div>
     <div class="cl-flex cl-flex-justify-content-end">
       <button
