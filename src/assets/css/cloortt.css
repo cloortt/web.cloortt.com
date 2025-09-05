@@ -1586,7 +1586,7 @@ a {
 }
 
 .cl-flex-justify-content-end {
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .cl-flex-justify-content-center {
