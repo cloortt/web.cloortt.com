@@ -21,7 +21,9 @@ const toggleBottomBar = computed(() => {
 const emit = defineEmits(['toggle-sidebar'])
 </script>
 <template>
-  <div class="the-head cl-flex cl-flex-align-items-center cl-flex-justify-content-space-between">
+  <div
+    class="the-head cl-flex cl-flex-align-items-center cl-size full-width cl-justify-content-space-between"
+  >
     <div class="col-1 cl-flex cl-flex-align-items-center">
       <Icon
         @click="emit('toggle-sidebar')"
